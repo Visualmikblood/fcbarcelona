@@ -1,0 +1,2639 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>fc barcelona</title>
+<style>
+
+    
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+    
+    body{
+        margin: 0;
+        padding: 0;
+        
+    }
+    figure{
+        margin: 0;
+    }
+    
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+    
+    p{
+        margin: 0;
+    }
+    
+    
+    
+    /*aqui empieza el div fijo de abajo*/
+    
+    #menu_fijo_parte_de_abajo{
+        width:100%;
+        height: 56px;
+        position: sticky;
+        bottom: 30px;
+        z-index: 1;
+        transition: 0.5s;
+    }
+    
+    #div_inmediato_a_menu_fijo{
+        width: 725.6px;
+        height: 56px;
+        background: linear-gradient(to right,#8d1a17,#181733);
+        padding: 0 25px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        z-index: 3;
+        border-radius: 30px;
+        box-shadow: 1px 2px 10px #000;
+        align-items: center;
+    }
+    
+    
+    
+    #logo_y_letras_de_no_te_pierdas {
+        width: 93.7px;
+        height: 40px;
+        color: #fff;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    #div_de_letras_amarillas_y_en_cursiva{
+        display: flex;
+        color: #FDC52C;
+        font-family: sans-serif;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    #div_de_letras_amarillas_y_en_cursiva p{
+        margin-right: 10px;
+    }
+    
+    
+    
+    
+    #div_de_iniciar_sesion_y_hazte_culer{
+        display: flex;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #div_de_iniciar_sesion_y_hazte_culer p{
+        margin-left: 15px;
+        border-left: 1px solid #000;
+    }
+    
+    
+    
+    /*aqui termina el div fijo de abajo*/
+    
+    
+    
+    /*aqui empieza el header*/
+    
+    
+    header{
+         display: flex;
+        flex-direction: column;
+        z-index: 2;
+        box-sizing: border-box;
+        
+    }
+    
+    #div_inmediato_al_header{
+        display: flex;
+        width: 100%;
+       
+    }
+    
+    #borde_de_abajo{
+        width: 100%;
+        height: 10px;
+        background-image: linear-gradient(to right,#133c79,#c1112b);
+    }
+    
+    
+    #parte_izquierda_del_header{
+        width: 328px;
+        height: 120px;
+        background: #181733;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: sans-serif;
+        border-right: 1px solid #6666;
+    }
+    
+    #div_que_engloba_a_logo_y_nombre{
+        width: 328px;
+        height: 120px;
+        background: #181733;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        color: #fff;
+        font-family: F.C BARCELONA;
+        font-weight: bold;
+        font-size: 1.7REM;
+        position: relative;
+        overflow: hidden;
+    }
+    #div_que_engloba_a_logo_y_nombre:hover{
+        background: #29283D;
+        cursor: pointer;
+    }
+    
+    #div_que_engloba_a_logo_y_nombre:hover #lazo_rojo_en_logo {
+        top: 0px;
+    }
+    
+    #div_que_engloba_a_logo_y_nombre:hover #lazo_azul_en_logo{
+        bottom: 0px;
+    }
+    
+    #lazo_rojo_en_logo{
+        width: 20px;
+        height: 40px;
+        background: #CD122D;
+        position: absolute;
+        top: -40px;
+        right: 0px;
+        transition: 0.1s;
+    }
+    
+    #lazo_azul_en_logo{
+        width: 20px;
+        height: 40px;
+        background: #154284;
+        position: absolute;
+        bottom: -40px;
+        left: 0px;
+        transition: 0.1s;
+        
+    }
+    
+    
+    
+    
+    #figure_logo_header{
+        background: url(imgs/logo.png) center;
+        width: 38px;
+        height: 38px;
+        margin: 0;
+        background-size: cover;
+        margin-right: 5px;
+        
+    }
+    
+    #parte_derecha_con_dos_secciones_mas{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 120px;
+    }
+    
+    #parte_de_arriba_de_la_segunda_seccion{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 48px;
+        background: #0a0927;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    
+    #div_de_parte_derecha_de_la_parte_de_arriba{
+        display: flex;
+        justify-content: space-between;
+        width: 389.7px;
+        height: 48px;
+    }
+    
+    
+    #div_que_contiene_login_y_hazte_culer{
+        width: 253.4px;
+        height: 48px;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        border-right: 1px solid #666666;
+        color: #ffff;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    
+  
+    
+    
+    #div_de_las_redes_sociales_del_header{
+        width: 330px;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    #div_de_las_redes_sociales_del_header p{
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: #999999;
+        margin-right: 10px;
+        
+    }
+    
+    #parte_de_solo_redes_sociales{
+        display: flex;
+        
+    }
+    
+    #wasap_header{
+        background: url(redes/wasap.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover;  
+        color: #ffff;
+         margin-right: 10px;
+    }
+    
+    #twitter_header{
+        background: url(redes/twitter.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover; 
+       margin-right: 10px;
+    }
+    
+    #facebook_header{
+        background: url(redes/facebook.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover; 
+        margin-right: 10px;
+    }
+    
+    #instagram_header{
+        background: url(redes/instagram.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover; 
+        margin-right: 10px;
+    }
+    
+    #youtube_header{
+        background: url(redes/youtube.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover; 
+        margin-right: 10px;
+    }
+    
+    #tiktok_header{
+        background: url(redes/tiktok.png) center;
+        width: 20px;
+        height: 20px;
+        background-size: cover; 
+    }
+    
+    
+    
+    #parte_de_abajo_de_la_segunda_seccion{
+        width: 100%;;
+        height: 72px;
+        z-index: 1;
+    }
+    #parte_de_abajo_de_la_segunda_seccion:hover{
+        cursor: pointer;
+    }
+    
+    #nav_del_header{
+        display: flex;
+    }
+    
+    
+    #ul_del_header{
+        display: flex;
+        list-style: none;
+    }
+    
+    #ul_del_header li{
+        width: 136.5px;
+        height: 72px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #181733;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+        box-sizing: border-box;
+        text-align: center;
+        border-right: 1px solid #6666;
+        padding: 8px;
+        position: relative;
+        
+        
+    }
+    
+    #li_de_premier_equipo{
+        
+        
+    }
+    
+    #li_de_premier_equipo:hover #a_de_entradas {
+        
+        background: yellow;
+    }
+    
+    #li_de_premier_equipo:hover #submenu_de_primer_equipo {
+        top: 0px;
+        visibility: visible;
+         opacity: 1;
+    }
+    
+    #div_transparente_para_sub_menu{
+        width: 135.5px;
+        height: 300px;
+        position: absolute;
+        background: red;
+        bottom: -300px;
+        overflow: hidden;
+        
+        visibility: hidden;
+        
+    }
+    
+    #submenu_de_primer_equipo{
+        position: absolute;
+        top: 900px;
+        background: #154284;
+        width: 135.5px;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start; 
+    }
+    #submenu_de_primer_equipo li{
+        background: #154284;
+        width: 135.5px;
+        height: 36px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 8px 16px;
+    }
+    
+    
+    #primer_submenu_de_entradas{
+        width: 170px;
+        display: flex;
+         position: absolute;
+        top: 72px;
+        left: -100px;
+        background: #154284;
+    }
+    
+    #primer_submenu_de_entradas li{
+        background: #154284;
+        width: 135.5px;
+        height: 36px;
+    }
+    
+    #segundo_submenu_de_entradas{
+        width: 170px;
+        position: absolute;
+        top: 72px;
+        left: 100px;
+        background: #154284;
+    }
+  
+    #segundo_submenu_de_entradas li{
+        background: #154284;
+        width: 135.5px;
+        height: 36px;
+    }
+    
+    #li_que_tiene_entradas_y_tours{
+    
+        
+    }
+    
+    
+    #ul_del_header li ul{
+        display: flex;
+        flex-direction: column;
+        
+        top: -300px;
+        opacity: 0;
+        transition: 0.5s ease-out;
+    }
+    
+    #ul_del_header li:hover > ul{
+        position: absolute;
+        top: 300px;
+        display: block;
+        
+        
+    }
+    
+    
+    
+    #a_de_primer_equipo{
+        position: relative;
+         
+    }
+    
+    #div_que_contiene_boton_rojo button{
+        color: #ffff;
+        padding: 6px 8px;
+        width: 108.75px;
+        height: 34px;
+        border: 0;
+        background: #a81621;
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    
+    
+    #div_de_frase_web_del_barça{
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+    
+    #lupa{
+        background: url(imgs/lupa.png) center;
+        background-size: cover;
+        width: 32px;
+        height: 32px;
+    }
+    
+    
+    #li_de_lupa{
+        width: 78px !important;
+        height: 72px;
+        display: flex;
+        justify-content: center;
+        transition: 0.3s;
+    }
+    
+    #li_de_lupa:hover{
+        background: #29283D;
+        
+    }
+    
+    #li_de_lupa a {
+        display: flex;
+        width: 78px!important;
+        height: 72px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    /*aqui termina el header*/
+
+    
+    
+    /*Aqui empieza la primera seccion*/   
+    
+    
+    #primera_seccion{
+        width: 100%;
+        height:471.23px;
+        background: linear-gradient(to top,#080E1F,rgba(0,0,0,0));
+        z-index: 1;
+    }
+    
+    #div_inmediato_a_primera_seccion{
+        width: 100%;
+        height:471.23px;
+        background: linear-gradient(to top,#080E1F,rgba(0,0,0,0));
+        
+        display: flex;
+        position: relative;
+    }
+    
+    
+    .capas_de_degradado_de_figures_de_primera_seccion{
+        width: 100%;
+        height: 471.23px;
+        background: linear-gradient(to top,#080E1F,rgba(0,0,0,0)50%);
+    }
+    
+    
+    #div_de_primer_figure_de_primera_seccion figure{
+        width: 269.8px;
+        height: 471.23px;
+        background: url(imgs/messi/messi_1%C2%BA.jpg) no-repeat 30%;
+        background-size: cover;
+        transition: 0.5s ;
+    }
+    #primer_figure_de_galeria{
+        width: 269.8px;
+        height: 471p;
+        background-size: cover;
+    }
+    
+    #primer_figure_de_galeria:hover{
+        width: 809.4px;
+        height: 471.23;
+        background-size: cover;
+    }
+    
+    #primer_figure_de_galeria:hover  #segundo_figure_de_galeria{
+        width: 269.8px !important;    
+    }
+    
+    #segundo_figure_de_galeria{
+        width: 809.4px;
+        height: 471.23px;
+        background: url(imgs/messi/messi_2%C2%BA.jpg) no-repeat;
+        background-size: cover;
+        display: flex;
+        
+        
+    }
+    
+    #tercer_figure_de_galeria{
+        width: 269.8px;
+        height: 471.23px;
+        background: url(imgs/messi/messi_3%C2%BA.jpg) no-repeat center;
+        background-size: cover;
+        display: flex;
+        transition:  .5s;
+        
+    }
+    
+    #tercer_figure_de_galeria:hover{
+        width: 809.4px;
+        height: 471.23;
+         /*transform: scale(0.7);*/
+        background-size: cover;
+        transform-origin: left;
+    }
+    
+    /*Aqui termina la segunda seccion*/
+    
+    
+    
+    /*aqui_empieza_la_segunda_seccion*/
+    
+    
+    #div_de_patrocinadores_de_segunda_seccion{
+        
+        
+        
+    }
+    
+    
+    #div_de_solo_letras_de_patrocinadores{
+        width: 275px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12.2px;
+        margin-right: 10px;
+        border-right: 1px solid #333;
+    }
+    
+    #div_de_patrocinadores_de_segunda_seccion{
+        width: 100%;;
+        height: 105px;
+        background: linear-gradient(to top,#181733,#470e22);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    #figure_de_logo_de_nike{
+        width: 72px;
+        height: 40px;
+        background: url(imgs/logos/nike.png) no-repeat center;    
+        background-size: contain;
+        color: #FFF;
+        margin-right: 10px;
+    }
+    
+    #figure_de_logo_de_rakuten{
+        width: 72px;
+        height: 40px;
+        background: url(imgs/logos/rakuten.png) no-repeat center;    
+        background-size: contain;
+        color: #FFF;
+        margin-right: 10px;
+    }
+    
+    #figure_de_logo_de_beko{
+         width: 72px;
+        height: 40px;
+        background: url(imgs/logos/beko.png) no-repeat center;    
+        background-size: contain;
+        color: #FFF;
+        margin-right: 10px;
+    }
+    
+    #div_que_contiene_logos_de_segunda_seccion{
+        width: 300px;
+        height: 40px;
+        display: flex;
+        
+    }
+    
+    /*------------------------*/
+    
+    #segunda_seccion{
+        width: 100%;
+        height:6258.73px;
+    }
+    
+    
+    
+    #div_inmediato_a_segunda_seccion{
+        width: 100%;
+        height: 6258.73px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        background: #181733;
+    }
+    
+    #div_de_fondo_blanco_con_solo_para_culers{
+        width: 1317px;
+        height:  281.7px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 30px 24px 44px 24px;
+        box-sizing: border-box;    }
+    
+    #div_que_tiene_p_de_solo_para_culers{
+        width: 1267px;
+        height: 55px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #div_que_tiene_p_de_solo_para_culers p{
+        font-family: sans-serif;
+        color: #832550;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #div_que_contiene_las_img_que_se_agrandan{
+        width: 1300px;
+        height: 145px;
+        background: ;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #primer_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/recortadas/uno.jpg) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    .imgs_que_se_hacen_grandes:hover{
+        transform: scale(1.1);
+       cursor: pointer;
+        background-size: cover;
+    }
+    
+    
+    #segundo_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/2%C2%BA.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    #tercer_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/3%C2%BA.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    #cuarto_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/4%C2%BA.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    
+    #quinta_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/5%C2%BA.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    
+    
+    #sexta_img_de_fondo_blaco{
+        width: 199.1px;
+        height: 118.7px;
+        background: url(img_de_caudraditos_que_se_hacen_grandes/6%C2%BA.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+        margin: 6px;
+    }
+    
+    
+    
+    /*Aqui termina la segunda seccion*/
+    
+    
+    /*aqui empieza ña tercera seccion dentro de segunda seccion*/
+    
+    #tercera_section_que_esta_dentro_de_segunda_seccion{
+        width: 1317px;
+        height: 470px;
+        background: #fff;
+        border-top: 1px solid #000;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        padding: 34px 34px 44px 34px;
+        box-sizing: border-box;
+    }
+    
+    #parte_de_arriba_de_la_tercera_seccion_con_hora{
+        width: 1249px;
+        height: 56px;
+        display: flex;
+        background: #fff;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    #primer_equipo_partidos{
+        width: 361.2px;
+        height: 56px;
+        display: flex;
+    }
+    
+    #parte_que_tiene_proximo_hora_y_sincroniza{
+        width: 720px;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 40px;
+    }
+    
+    
+    #div_de_solo_hora{
+        width: 250px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+    
+    
+    
+    #div_de_solo_hora p{
+        
+        
+        background: linear-gradient(to right,#CB132E,#5B3063);
+        color: transparent;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        font-size: 30px;
+        font-family: arial;
+        font-weight: bold;
+        -webkit-background-clip: text;
+         margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+    
+    #p_de_solo_primer_equipo{
+        width: 100%;
+        height: 100%;
+        font-family: 'Archivo Black', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: transparent;
+        background: linear-gradient(to right,#CB132E,#5B3063);
+        background-size: cover;
+        -webkit-background-clip: text;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    #p_de_solo_partidos{
+        font-family: sans-serif;
+        color: #44366E;
+        font-size: 30px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    #p_de_proximo_partido{
+        color: #000;
+        font-style: oblique;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+    
+    #div_que_tiene_p_de_sincroniza_partidos {
+        color: #154284;
+        font-style: oblique;
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 13px;
+        display: flex;
+        align-items: center;
+    }
+    
+    
+    
+/*-------------------------------------------*/
+    
+    #div_de_calendario_y_fechas{
+        width: 100%;
+        height: 307px;
+        background: #fff;
+        display: flex;
+        
+    }
+    
+    
+    
+    
+    #figure_de_ver_resultado{
+        width: 352px;
+        height: 307px;
+        background: url(imgs/foto_degradado_rojo_con_letras/img_degradado_con_letras.JPG) no-repeat;
+    }
+    
+    .cuadrados_de_los_resultados{
+        width: 352px;
+        height: 305px;
+        background: green;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        border: 1px solid #efefef;
+        box-sizing: ;
+        transition: 0.3s;
+    }
+    
+    
+    .cuadrados_de_los_resultados:hover{
+        box-shadow: 2px 2px 10px #666;
+    }
+    
+    .cabeza_de_resultado_fecha{
+        width: 352px;
+        height: 47px;
+        padding: ;
+        background: #154284;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    .cabeza_de_resultado_fecha p{
+        margin: 0px;
+        color: #fff;
+        font-family: "F.C. BARCELONA";
+        font-weight: bold;
+    }
+    
+    
+    .dia_letras{
+        width: 54.7px;
+        height: 32px;
+    }
+    
+    
+    .parte_del_medio_del_cuadrado{
+        width: 352px;
+        height: 178px;
+        background: #fff;;
+    }
+    
+    .span_de_letras_mas_finas{
+        font-weight: lighter;
+        
+    }
+    
+    .numero_fecha_cuadrados_resultados{
+        width: 38px;
+        height: 32px;
+        display: flex;
+        font-size: 2.5rem;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .div_que_tiene_logo_lfp {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .div_que_tiene_logo_lfp figure{
+        background: url(imgs/logos/logo_liga_lfp.JPG) no-repeat;
+        width: 92px;
+        height: 30px;
+    }
+    
+    .div_de_numeros_de_resultado{
+        width: 80px;
+        height: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(to bottom,#2B427E,#191A38);
+        margin: 0 40px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    .div_de_numeros_de_resultado p{
+        margin: 0;
+    }
+    
+    
+    .div_que_tiene_escudos_y_marcador{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    #figure_del_escudo_del_barca{
+        width: 55px;
+        height: 55px;
+        background: url(imgs/logos/barca/logo_barca.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    
+    #figure_del_escudo_del_huesca{
+        width: 55px;
+        height: 55px;
+        background: url(imgs/logos/huesca/escudo_huesca.png) no-repeat center;
+        background-size: cover;
+    }
+    
+    #figure_del_escudo_del_real_sociedad{
+        width: 55px;
+        height: 55px;
+        background: url(imgs/logos/real_sociedad/real_sociedad.png) no-repeat center;
+        background-size: contain;
+    }
+    
+    .div_de_equipos_con_letras{
+        width: 100%;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: F.C BARCELONA;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0;
+        color: #000;
+        margin-top: 15px;
+    }
+    
+    
+    .campo_de_juego{
+        font-size: 13px;
+    }
+    
+    .div_de_equipos_con_letras p{
+        margin: 0;
+        font-family: arial;
+    }
+    
+    .parte_de_abajo_del_cuadrado{
+        width: 100%;
+        height: 82px;
+        background: #fff;
+        padding: 12px 4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+    
+    .div_de_boton_de_la_izquieda_dentro_del_cuadrado button{
+        width: 148px;
+        height: 32px;
+        border: none;
+        background: #181733;
+        color: #fff;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 11px;
+        border: 2px solid transparent;
+        border-image: linear-gradient(to right, #cb122e, #154284) 1;
+        box-sizing:border-box;
+        transition: 0.5s;
+        cursor: pointer;
+        padding: 0 16px;
+    }
+    
+    
+    .div_de_boton_de_la_izquieda_dentro_del_cuadrado button:hover{
+        background: linear-gradient(to right, #C8132F, #184182);
+       
+    }
+    
+    
+    
+    .div_de_boton_de_la_derecha_dentro_del_cuadrado button{
+        width: 148px;
+        height: 32px;
+        border: none;
+        background: #154284;
+        color: #fff;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 11px;        
+        box-sizing: border-box;
+        transition: 0.5s;
+        cursor: pointer;
+        padding: 0 16px;
+        margin-left: 10px;
+    }
+    
+    
+    
+    .div_de_boton_de_la_derecha_dentro_del_cuadrado button:hover{
+        background: linear-gradient(to right, #C8132F, #184182);
+    }
+    
+    /*aqui termina la tercera seccion que esta dentro de la segunda seccion*/
+    
+    
+    /*aqui empieza la cuarta seccion que esta dentro de la segunda seccion*/
+    
+    
+    
+    #cuarta_seccion_dentro_de_la_segunda{
+        width: 1317px;
+        height: 530px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        border: 1px solid #f3f3f3;
+
+    }
+    
+    
+    #div_inmediato_a_cuarta_seccion{
+        width: 1204.5px;
+        height: 530.4px;
+        background: #fff;
+        padding: 30px 24px 44px 24px;
+        box-sizing: border-box;
+        
+    }
+    
+    #div_del_titulo_de_cuarta_seccion p{
+        width: 1154.7px;
+        height: 55px;
+        font-size: 40px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        color: #7B2754;
+        font-family: arial;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    
+    #div_general_de_fotos_de_destacados{
+        width: 1162.7px;
+        height: 379.5px;
+        background: #fff;
+        display: flex;
+    }
+    
+    
+    .clase_de_div_de_foto_de_destacados{
+        width: 379.5px;
+        height: 379.5px;
+        background: red;
+        margin: 0 4px;
+        display: flex;
+        overflow: hidden;
+        cursor: pointer;
+        position: relative;
+        
+    }
+    
+    .clase_de_div_de_foto_de_destacados:hover #primer_figure_de_destacados{
+        transform: scale(1.1);
+        
+    }
+    
+    .clase_de_div_de_foto_de_destacados:hover #segundo_figure_de_destacados {
+        transform: scale(1.1);
+        
+    }
+    .clase_de_div_de_foto_de_destacados:hover #tercer_figure_de_destacados{
+        transform: scale(1.2);
+        
+    }
+    
+    #primer_figure_de_destacados{
+        position: absolute;
+        top: 50;
+        width: 379.5px; 
+        height: 379.5px;
+        background: url(para_buscar_en_google/encontradas/1_encon.JPG) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+    }
+    
+    #segundo_figure_de_destacados{
+        width: 379.5px; 
+        height: 379.5px;
+        background: url(para_buscar_en_google/encontradas/2_dos.jpg) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+    }
+    
+    #tercer_figure_de_destacados{
+        width: 379.5px; 
+        height: 379.5px;
+        background: url(para_buscar_en_google/encontradas/3_tres.jpg) no-repeat center;
+        background-size: cover;
+        transition: 0.3s;
+    }
+    
+    .caja_que_tiene_texto_y_destacado{
+        width: 379.5px;
+        height: 345px;
+        position: absolute;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    
+    
+    .div_que_solo_tiene_texto_amarillo{
+        width: 291.5px;
+        height:90px;
+        position: absolute;
+        top: 305px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: flex-end;
+        z-index: 1;
+        transition: 0.5s;
+    }
+    
+    #id_de_div_que_solo_tiene_texto_damarillo{
+        top: 290px;
+        
+    }
+    
+    .clase_de_div_de_foto_de_destacados:hover #id_de_div_que_solo_tiene_texto_damarillo{
+        top: 240px;
+    }
+   
+    .div_que_solo_tiene_texto_amarillo p{
+        margin: 0;
+    }
+    
+    
+    
+    .parte_que_se_ve_de_cuarta_seccion{
+        width: 100%;
+        shape-image-threshold: 46px;
+        font-size: 20px;
+        color: #FDC52C;
+        font-family: arial;
+        text-align: center;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .clase_de_div_de_foto_de_destacados:hover .div_que_solo_tiene_texto_amarillo{
+        top: 250px;
+    }
+    
+    .parte_que_no_se_ve_de_cuarta_seccion{
+        width: 100%;
+        height: 54px;
+        text-align: center;
+        color: #fff;
+        font-family: arial;
+    }
+    
+    
+    .div_que_engloba_a_las_bandas_en_destacado{
+        width: 379.5px;
+        height: 379.5px;
+        position: absolute;
+    }
+    
+    
+    .banda_azul_en_foto_destacado{
+        position: absolute;
+        top: 100px;
+        width: 22px;
+        height: 204px;
+        background: #154284;
+        z-index: 4;
+    }
+    
+    
+    .banda_roja_en_foto_destacado{
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 22px;
+        height: 140px;
+        background: #CD122D;
+        z-index: 4;
+    }
+    
+    
+    .cuadradito_destacado_con_fecha{
+        width: 100%;
+        height: 34.5px;
+        z-index: 3;
+        position: absolute;
+        bottom:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+    }
+    
+    
+    
+    .cuadradito_destacado_con_fecha p{
+        margin: 0;
+        margin-right: 10px;
+    }
+    
+    
+    .solo_cuadradito_de_destacado{
+        color: #FDC52C;
+        font-weight: bold;
+        font-family: arial;
+        width: 84px;
+        height: 17px;
+        
+    }
+    
+    
+    
+    .fecha_de_parte_de_abajo_al_lado_de_cuadradito{
+        color: #fff;
+        font-weight: bold;
+        font-family: arial;
+    }
+    
+    /*.clases_figures_de_edstacados::after{
+        content: "";
+    }
+    */
+    
+    .filtro_azul_para_cada_foto_de_destacados{
+        width: 379.5px;
+        height: 379.5px;
+        background: linear-gradient(to top, rgba(21, 66, 132, .6) 0%, rgba(255, 255, 255, 0) 100%);
+        
+    }
+    
+    
+    /*aqui termina la cuarta seccion dentro de la segunda 
+    secion*/
+    
+    
+    
+    
+    /*aqui empieza la quinta seccion*/
+    
+    #div_inmediato_a_quinta_seccion{
+        width: 1270.5px;
+        height: 421px;
+        background: #fff;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px 24px 44px 24px;
+        box-sizing: ,
+    }
+    #div_de_titulo_en_morado_de_quina_seccion{
+        width: 1156.5px;
+        height: 55px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px; 
+    }
+    
+    #div_de_titulo_en_morado_de_quina_seccion p{
+        color: #7B2754;
+        margin: 0;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #div_global_de_fotos_de_quinta_seccion{
+        width: 1186px;
+        height: 272px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto{
+        width: 289.1px;
+        height: 272px;
+        background: #6666;
+        position: relative;
+        overflow: hidden;
+        transition: 1s;
+        cursor: pointer;
+        border: 1px solid #E6E6E6;
+    }
+    
+    .div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto:hover .div_de_dos_textos_que_se_desplazan{
+        bottom: 0px;
+    }
+    
+    .div_de_solo_figure_de_quinta_seccion{
+        width: 289.1px;
+        height: 157.1px;
+    }
+    
+    .div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto:hover .div_de_solo_figure_de_quinta_seccion figure{
+        position: relative;
+        transform: translate(0px, -20px);
+        transition: 1s;
+    }
+    
+    .div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto:hover .parte_que_no_se_ve_de_la_quinta_seccion{
+        opacity: 1;
+    }
+    
+    
+    .div_de_solo_figure_de_quinta_seccion figure{
+        width: 289.1px;
+        height: 157.1px;
+        
+        overflow: hidden;
+        transition: 1s;
+    }
+    
+    
+    #primera_img_de_quinta_seccion figure{
+        background: url(imgs_de_quinta_seccion/1.webp) ;
+        background-size: cover;
+    }
+    
+    #segunda_img_de_quinta_seccion figure{
+        background: url(imgs_de_quinta_seccion/2.webp) ;
+        background-size: cover;
+    }
+    #tercera_img_de_quinta_seccion figure{
+        background: url(imgs_de_quinta_seccion/3.webp) ;
+        background-size: cover;
+    }
+    #cuarta_img_de_quinta_seccion figure{
+        background: url(imgs_de_quinta_seccion/4.webp) ;
+        background-size: cover;
+    }
+    
+    .div_de_solo_texto_de_quinta_seccion{
+        width: 289.1px;
+        height: 115px;
+        background: #fff;
+    }
+    
+    .div_de_dos_textos_que_se_desplazan{
+        width: 289.1px;
+        height: 200px;
+        background: #fff;
+        margin: 0 auto;
+        display: flex;
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+        position: absolute;
+        left: 0px;
+        bottom: -85px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+    
+    
+    .parte_que_se_ve_de_cada_foto_de_quita_seccion{
+        width: 273px;
+        height: 50px;
+        color: #000;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 19px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-bottom:5px;
+        box-sizing: border-box;
+    }
+    
+    
+    .parte_que_no_se_ve_de_la_quinta_seccion{
+        width: 273px;
+        height: 70px;
+        color: #000;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        opacity: 0;
+        transition: 0.5s;
+    }
+    
+    
+    .div_de_solo_parte_de_abajo_de_hora_y_seccion{
+        width: 289.1px;
+        height: 29px;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .p_de_clasificacion_de_deportes{
+        color: #CD122D;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    
+    .p_de_hora_de_noticia_de_quinta_seccion{
+        color: #727272;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    
+    
+    /*aqui termina la quinta seccion*/
+    
+    
+    /*AQUI EMPIEZA LA SEXTA SECCION*/
+    
+    #div_inmediato_a_sexta_seccion{
+        width: 1320.5px;
+        height: 549.8px;
+        background: #fff;
+    }
+    
+    
+    #div_de_titulo_de_sexta_seccion{
+        width: 1156.5px;
+        height: 55px;
+        background: #fff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #7B2754;
+        font-size: 30px;
+        font-family: arial;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    
+    #div_que_tiene_todas_las_cartillas_de_los_jugadores{
+        width: 1164.5px;
+        height: 400.8px;
+        background: ;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .div_que_solo_tiene_una_cartilla{
+        width: 283.1px;
+        height: 392.8px;
+        background: #fff;
+        border-radius: 10px;
+        transition: 0.5s;
+        cursor: pointer;
+		border: 1px solid #E6E6E6;
+    }
+    
+    .div_que_solo_tiene_una_cartilla:hover{
+        box-shadow: 1px 2px 10px #000;
+    }
+    
+    .div_que_solo_tiene_la_foto_de_arriba_de_las_cartillas{
+        width: 283.1px;
+        height:111.8px;
+            
+    }
+    
+    
+    #priemera_foto_de_sexta_seccion{
+        background: url(sexta_seccion/1_uno.webp);
+        background-size: cover;
+        border-radius: 10px;
+    }
+    
+    #segunda_foto_de_sexta_seccion{
+        background: url(sexta_seccion/2_dos.webp);
+        background-size: cover;
+             border-radius: 10px;
+    }
+    
+    #tercera_foto_de_sexta_seccion{
+        background: url(sexta_seccion/3_tres.webp);
+        background-size: cover;
+         border-radius: 10px;
+    }
+    #cuarta_foto_de_sexta_seccion{
+        background: url(sexta_seccion/4_cuatro.webp);
+        background-size: cover;
+         border-radius: 10px;
+    }
+    
+    .div_que_solo_tiene_la_foto_e_info_de_la_cartilla{
+        width: 283.1px;
+        height: 237px;
+        background: #fff;
+        padding: 21px 16px 15px 16px;
+        box-sizing: border-box;
+        display: flex;
+        
+    }
+    
+    
+    .div_que_tiene_la_foto_de_la_izquierda_de_la_cartilla{
+        width: 110px;
+        height: 160px;
+        background: #fff;
+    }
+    
+    #primera_img_de_segunda_galeria_de_sexta_seccion{
+        background: url(sexta_seccion/segunda_galeria/1_uno.webp);
+        background-size: cover;
+    }
+    
+    #segunda_img_de_segunda_galeria_de_sexta_seccion{
+        background: url(sexta_seccion/segunda_galeria/2_dos.webp);
+        background-size: cover;
+    }
+    
+    #tercera_img_de_segunda_galeria_de_sexta_seccion{
+        background: url(sexta_seccion/segunda_galeria/3_tres.webp);
+        background-size: cover;
+    }
+    
+    #cuarta_img_de_segunda_galeria_de_sexta_seccion{
+        background: url(sexta_seccion/segunda_galeria/4_cuatro.webp);
+        background-size: cover;
+    }
+    
+    .div_que_solo_tiene_info_de_la_parte_de_la_derecha{
+        width: 130.1px;
+        height: 201px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        box-sizing: border-box;
+    }
+    
+    
+    .titulo_que_habla_de_las_camisetas p{
+        font-family: arial;
+        font-weight: bold;
+        font-size: 22px;
+        
+    }
+    
+    
+    .aclaracion_de_las_camisetas{
+        font-family: arial;
+        color: #727272;
+        font-size: 15px;
+        margin: 10px 0 10px 0;
+    }
+    
+    
+    .div_de_comprar_ahora{
+        width: 88.1px;
+        height: 44px;
+        color: #154284;
+        font-style: italic; 
+        font-weight: bold;
+        font-family: arial;
+        font-size: 15px;
+    }
+    
+    
+    /*AQUI TERMINA LA SEXTA SECCION*/
+    
+    
+</style>
+</head>
+<body>
+
+<header>
+   
+    <div id="div_inmediato_al_header">
+        <div id="parte_izquierda_del_header">
+            <div id="div_que_engloba_a_logo_y_nombre">
+                <figure id="figure_logo_header">
+                    
+                </figure>
+                <p>
+                    FC BARCELONA
+                </p>
+                <div id="lazo_rojo_en_logo">
+                    
+                </div>
+                <div id="lazo_azul_en_logo">
+                    
+                </div>
+            </div>
+        </div>
+        <div id="parte_derecha_con_dos_secciones_mas">
+            <div id="parte_de_arriba_de_la_segunda_seccion">
+                <div id="div_de_las_redes_sociales_del_header">
+                    <p>
+                        SEGUIR FC BARCELONA
+                    </p>
+                    <div id="parte_de_solo_redes_sociales">
+                        <figure id="wasap_header">
+                            
+                        </figure>
+                        <figure id="twitter_header">
+                            
+                        </figure>
+                        <figure id="facebook_header">
+                            
+                        </figure>
+                        <figure id="instagram_header">
+                            
+                        </figure>
+                        <figure id="youtube_header">
+                            
+                        </figure>
+                        <figure id="tiktok_header">
+                            
+                        </figure>
+                    </div>
+                </div>
+                <div id="div_de_parte_derecha_de_la_parte_de_arriba">
+                    <div id="div_que_contiene_login_y_hazte_culer">
+                        <div id="div_de_p_que_dice_login">
+                            <p>
+                                Login
+                            </p>
+                        </div>
+                        <div id="div_que_contiene_boton_rojo">
+                            <button>
+                                Hazte Culer
+                            </button>
+                        </div>
+                        <div id="div_de_es">
+                            <p>
+                                ES
+                            </p>
+                        </div>
+                    </div>
+                    <div id="div_de_frase_web_del_barça">
+                        <p>
+                            Webs del Barça
+                        </p>
+                        <figure id="figure_logo_simple_parte_derecha">
+                            
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div id="parte_de_abajo_de_la_segunda_seccion">
+                <nav id="nav_del_header">
+                    <ul id="ul_del_header">
+                        <li id="li_de_premier_equipo">
+                            <a id="a_de_primer_equipo">
+                                PRIMER EQUIPO
+                            </a>
+                            
+                            <div id="div_transparente_para_sub_menu">
+                                <ul id="submenu_de_primer_equipo">
+                                <li>
+                                    <a>
+                                        Actualidad
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Calendario
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Resultados
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Clasificacion
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Jugadores
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Fotos
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Palmarés
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Especiales
+                                    </a>
+                                </li>
+                            </ul>
+                            </div>
+                        </li>
+                        <li id="li_que_tiene_entradas_y_tours">
+                            <a id="a_de_entradas">
+                                ENTRADAS & LIVE TOURS
+                            </a>
+                            <ul id="primer_submenu_de_entradas">
+                                <li>
+                                    <a>
+                                        Live stream tour
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Tour & museo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Fútbol
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        VIP Fútbol
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Baloncesto
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        VIP Baloncesto
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Packs y Promociones
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul id="segundo_submenu_de_entradas">
+                                <li>
+                                    <a>
+                                        Balonmano
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Futsal
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Hockey Patines
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Barça B
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        FC Barcelona Femenino
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Pista de hielo
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        Todo sobre entradas
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a>
+                                TIENDA
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                BARÇA TV+
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                CLUB
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                SOCIOS
+                            </a>
+                        </li>
+                        <li>
+                            <a>
+                                MÁS EQUIPOS
+                            </a>
+                        </li>
+                        <li id="li_de_lupa">
+                            <a>
+                              <figure id="lupa">
+                                  
+                              </figure>  
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <div id="borde_de_abajo">
+        
+    </div>
+    
+   
+    
+    
+</header>
+
+<section id="primera_seccion">
+  
+   
+   
+    <div id="div_inmediato_a_primera_seccion">
+       
+        <div id="div_de_primer_figure_de_primera_seccion">
+            <figure id="primer_figure_de_galeria">
+                <div class="capas_de_degradado_de_figures_de_primera_seccion">
+                    
+                </div>
+            </figure>
+        </div>
+        <div id="div_de_segundo_figure_de_primera_seccion">
+            <figure id="segundo_figure_de_galeria">
+                <div class="capas_de_degradado_de_figures_de_primera_seccion">
+                    
+                </div>
+            </figure>
+        </div>
+        <div id="div_de_tercer_figure_de_primera_seccion">
+            <figure id="tercer_figure_de_galeria">
+                <div class="capas_de_degradado_de_figures_de_primera_seccion">
+                    
+                </div>
+            </figure>
+        </div>
+        
+    </div>
+    
+    
+    
+</section>
+
+<div id="presegunda_seccion">
+    <div id="div_de_patrocinadores_de_segunda_seccion">
+            <div id="div_de_solo_letras_de_patrocinadores">
+                <p>
+                     Principales patrocinadores del Club
+
+                </p>
+            </div>
+            <div id="div_que_contiene_logos_de_segunda_seccion">
+                <figure id="figure_de_logo_de_nike">
+                    
+                </figure>
+                <figure id="figure_de_logo_de_rakuten">
+                    
+                </figure>
+                <figure id="figure_de_logo_de_beko">
+                    
+                </figure>
+            </div>
+        </div>
+</div>
+
+
+<section id="segunda_seccion">
+    <div id="div_inmediato_a_segunda_seccion">
+        
+        <div id="div_de_fondo_blanco_con_solo_para_culers">
+            <div id="div_que_tiene_p_de_solo_para_culers">
+                <p>
+                    
+                    Solo para Culers
+
+                </p>
+            </div>
+            <div id="div_que_contiene_las_img_que_se_agrandan">
+                <div>
+                    <figure class="imgs_que_se_hacen_grandes" id="primer_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+                <div>
+                    <figure class="imgs_que_se_hacen_grandes" id="segundo_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+                <div>
+                    <figure class="imgs_que_se_hacen_grandes" id="tercer_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+                <div>
+                    <figure class="imgs_que_se_hacen_grandes" id="cuarto_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+                <div >
+                    <figure class="imgs_que_se_hacen_grandes" id="quinta_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+                <div>
+                    <figure class="imgs_que_se_hacen_grandes" id="sexta_img_de_fondo_blaco">
+                        
+                    </figure>
+                </div>
+            </div>
+            
+        </div>
+   <section id="tercera_section_que_esta_dentro_de_segunda_seccion">
+   <div id="div_inmediato_a_tercera_seccion_debtro_de_segunda_seccion">
+        <div id="parte_de_arriba_de_la_tercera_seccion_con_hora">
+            <div id="primer_equipo_partidos">
+                <p id="p_de_solo_primer_equipo">
+                    Primer equipo
+                </p>
+                <p id="p_de_solo_partidos">
+                    Partidos
+                </p>
+            </div>
+            <div id="parte_que_tiene_proximo_hora_y_sincroniza">
+                <p id="p_de_proximo_partido">
+                    PRÓXIMO PARTIDO
+                </p>
+                <div id="div_de_solo_hora">
+                    <p>
+                        10 : 23 : 50 : 20
+                    </p>
+                </div>
+                <div id="div_que_tiene_p_de_sincroniza_partidos">
+                    <p>
+                        Sincroniza los partidos en tu calendario
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="div_de_calendario_y_fechas">
+            <figure id="figure_de_ver_resultado">
+                
+            </figure>
+            <div class="cuadrados_de_los_resultados">
+                <div class="cabeza_de_resultado_fecha">
+                    <p class="numero_fecha_cuadrados_resultados">
+                        15
+                    </p>
+                    <p class="dia_letras">
+                        LUNES <span class="span_de_letras_mas_finas">MARZO</span>
+                    </p>
+                </div>
+                <div class="parte_del_medio_del_cuadrado">
+                    <div class="div_que_tiene_logo_lfp">
+                        <figure>
+                            
+                        </figure>
+                    </div>
+                    <div class="div_que_tiene_escudos_y_marcador">
+                        <figure id="figure_del_escudo_del_barca">
+                            
+                        </figure>
+                        <div class="div_de_numeros_de_resultado">
+                            <p>
+                                4
+                            </p>
+                            <span>
+                                -
+                            </span>
+                            <p>
+                                1
+                            </p>
+                        </div>
+                        <figure id="figure_del_escudo_del_huesca">
+                            
+                        </figure>
+                    </div>
+                    <div class="div_de_equipos_con_letras">
+                        <div class="rivales">
+                            <p>
+                                FC barcelona - Huesca
+                            </p>
+                        </div>
+                        <div class="campo_de_juego">
+                            <p>
+                                Camp Nou
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="parte_de_abajo_del_cuadrado">
+                    <div class="div_de_boton_de_la_izquieda_dentro_del_cuadrado">
+                        <button>
+                            BARÇATV+S
+                        </button>
+                    </div>
+                    <div class="div_de_boton_de_la_derecha_dentro_del_cuadrado">
+                       <button>
+                           CRONICA DEL PARTIDO
+                       </button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="cuadrados_de_los_resultados">
+                <div class="cabeza_de_resultado_fecha">
+                    <p class="numero_fecha_cuadrados_resultados">
+                        21
+                    </p>
+                    <p class="dia_letras">
+                        DOMINGO <span class="span_de_letras_mas_finas">MARZO</span>
+                    </p>
+                </div>
+                <div class="parte_del_medio_del_cuadrado">
+                    <div class="div_que_tiene_logo_lfp">
+                        <figure>
+                            dfgdfgdfg
+                        </figure>
+                    </div>
+                    <div class="div_que_tiene_escudos_y_marcador">
+                        <figure id="figure_del_escudo_del_barca">
+                            
+                        </figure>
+                        <div class="div_de_numeros_de_resultado">
+                            <p>
+                                1
+                            </p>
+                            <span>
+                                -
+                            </span>
+                            <p>
+                                6
+                            </p>
+                        </div>
+                        <figure id="figure_del_escudo_del_real_sociedad">
+                            
+                        </figure>
+                    </div>
+                    <div class="div_de_equipos_con_letras">
+                        <div class="rivales">
+                            <p>
+                                FC barcelona - Huesca
+                            </p>
+                        </div>
+                        <div class="campo_de_juego">
+                            <p>
+                                Camp Nou
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="parte_de_abajo_del_cuadrado">
+                    <div class="div_de_boton_de_la_izquieda_dentro_del_cuadrado">
+                        <button>
+                            BARÇATV+S
+                        </button>
+                    </div>
+                    <div class="div_de_boton_de_la_derecha_dentro_del_cuadrado">
+                       <button>
+                           CRONICA DEL PARTIDO
+                       </button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+   <section id="cuarta_seccion_dentro_de_la_segunda">
+       <div id="div_inmediato_a_cuarta_seccion">
+           <div id="div_del_titulo_de_cuarta_seccion">
+               <p>
+                   Destacados
+               </p>
+           </div>
+           <div id="div_general_de_fotos_de_destacados">
+               <div class="clase_de_div_de_foto_de_destacados">
+                
+                    <div class="banda_azul_en_foto_destacado">
+                     
+                 </div>
+                 <div class="banda_roja_en_foto_destacado">
+                     
+                 </div>
+                
+                 
+                  <div class="caja_que_tiene_texto_y_destacado">
+                           <div class="div_que_solo_tiene_texto_amarillo">
+                               <p class="parte_que_se_ve_de_cuarta_seccion">
+                                   Leo Messi, el hombre rècord de la historia del FC Barcelona
+                               </p>
+                               <p class="parte_que_no_se_ve_de_cuarta_seccion">
+                                   El crack argentino es el máximo goleado, el futbolista con más partidos jugados, con más titulos, con más...
+                               </p>
+                           </div>
+                       </div>
+                       <div class="cuadradito_destacado_con_fecha">
+                           <p class="solo_cuadradito_de_destacado">
+                               DESTACADO
+                           </p>
+                           <p class="fecha_de_parte_de_abajo_al_lado_de_cuadradito">
+                               20 mar. 21
+                           </p>
+                       </div>
+                       
+                           <figures class="clases_figures_de_edstacados" id="primer_figure_de_destacados">
+                       <div class="filtro_azul_para_cada_foto_de_destacados">
+                        </div>
+                   </figures>
+                      
+                   
+               </div>
+               <div class="clase_de_div_de_foto_de_destacados">
+                  <div class="banda_azul_en_foto_destacado">
+                     
+                 </div>
+                 <div class="banda_roja_en_foto_destacado">
+                     
+                 </div>
+                
+                 
+                  <div class="caja_que_tiene_texto_y_destacado">
+                           <div class="div_que_solo_tiene_texto_amarillo">
+                               <p class="parte_que_se_ve_de_cuarta_seccion">
+                                   Felicitaciones a Messi por un récord histótrico
+                               </p>
+                               <p class="parte_que_no_se_ve_de_cuarta_seccion">
+                                   Un vídeo dedicado al argentino el día que iguala a Xavi como el jugador de la historia del Barça con más...
+                               </p>
+                           </div>
+                       </div>
+                       <div class="cuadradito_destacado_con_fecha">
+                           <p class="solo_cuadradito_de_destacado">
+                               DESTACADO
+                           </p>
+                           <p class="fecha_de_parte_de_abajo_al_lado_de_cuadradito">
+                               15 mar. 21
+                           </p>
+                       </div>
+                   <figures id="segundo_figure_de_destacados">
+                       <div class="filtro_azul_para_cada_foto_de_destacados">
+                        </div>
+                   </figures>
+               </div>
+               <div class="clase_de_div_de_foto_de_destacados">
+                  <div class="banda_azul_en_foto_destacado">
+                     
+                 </div>
+                 <div class="banda_roja_en_foto_destacado">
+                     
+                 </div>
+                
+                 
+                  <div class="caja_que_tiene_texto_y_destacado">
+                           <div id="id_de_div_que_solo_tiene_texto_damarillo" class="div_que_solo_tiene_texto_amarillo">
+                               <p class="parte_que_se_ve_de_cuarta_seccion">
+                                   El Camp Nou estrena su nuevo show virtual, en directo y desde casa
+                               </p>
+                               <p class="parte_que_no_se_ve_de_cuarta_seccion">
+                                   El "Camp Nou Live Stream Tour" se ha creado para salvar las restricciones que impone la pandemia y dar acceso...
+                               </p>
+                           </div>
+                       </div>
+                       <div class="cuadradito_destacado_con_fecha">
+                           <p class="solo_cuadradito_de_destacado">
+                               DESTACADO
+                           </p>
+                           <p class="fecha_de_parte_de_abajo_al_lado_de_cuadradito">
+                               08 mar. 21
+                           </p>
+                       </div>
+                   <figures id="tercer_figure_de_destacados">
+                       <div class="filtro_azul_para_cada_foto_de_destacados">
+                        </div>
+                   </figures>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="quinta_seccion_dentro_de_la_segunda_seccion">
+       <div id="div_inmediato_a_quinta_seccion">
+           <div id="div_de_titulo_en_morado_de_quina_seccion">
+               <p>
+                   Actualidad
+               </p>
+           </div>
+           <div id="div_global_de_fotos_de_quinta_seccion">
+               <div class="div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto">
+                   <div  id="primera_img_de_quinta_seccion" class="div_de_solo_figure_de_quinta_seccion">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_de_solo_texto_de_quinta_seccion">
+                       <div class="div_de_dos_textos_que_se_desplazan">
+                           <p class="parte_que_se_ve_de_cada_foto_de_quita_seccion">
+                               El Sevilla, el rival de cuartos de Copa
+                           </p>
+                           <p class="parte_que_no_se_ve_de_la_quinta_seccion">
+                               La eliminatoria se disputará, a partido único, en terreno andaluz el 5 o 6 de mayo
+                           </p>
+                       </div>
+                       <div class="div_de_solo_parte_de_abajo_de_hora_y_seccion">
+                           <p class="p_de_clasificacion_de_deportes">
+                               @ FEMENINO
+                           </p>
+                           <p class="p_de_hora_de_noticia_de_quinta_seccion">
+                               Hace 4h
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto">
+                   <div id="segunda_img_de_quinta_seccion" class="div_de_solo_figure_de_quinta_seccion">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_de_solo_texto_de_quinta_seccion">
+                       <div class="div_de_dos_textos_que_se_desplazan">
+                           <p class="parte_que_se_ve_de_cada_foto_de_quita_seccion">
+                               El Sevilla, el rival de cuartos de Copa
+                           </p>
+                           <p class="parte_que_no_se_ve_de_la_quinta_seccion">
+                               La eliminatoria se disputará, a partido único, en terreno andaluz el 5 o 6 de mayo
+                           </p>
+                       </div>
+                       <div class="div_de_solo_parte_de_abajo_de_hora_y_seccion">
+                           <p class="p_de_clasificacion_de_deportes">
+                               @ BALONCESTO
+                           </p>
+                           <p class="p_de_hora_de_noticia_de_quinta_seccion">
+                               Hace 6h
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto">
+                   <div  id="tercera_img_de_quinta_seccion" class="div_de_solo_figure_de_quinta_seccion">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_de_solo_texto_de_quinta_seccion">
+                       <div class="div_de_dos_textos_que_se_desplazan">
+                           <p class="parte_que_se_ve_de_cada_foto_de_quita_seccion">
+                               El Sevilla, el rival de cuartos de Copa
+                           </p>
+                           <p class="parte_que_no_se_ve_de_la_quinta_seccion">
+                               La eliminatoria se disputará, a partido único, en terreno andaluz el 5 o 6 de mayo
+                           </p>
+                       </div>
+                       <div class="div_de_solo_parte_de_abajo_de_hora_y_seccion">
+                           <p class="p_de_clasificacion_de_deportes">
+                               @ PRIMER EQUIPO
+                           </p>
+                           <p class="p_de_hora_de_noticia_de_quinta_seccion">
+                               04 abr.21
+                           </p>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_individual_de_fotos_que_tiene_foto_y_bloque_de_texto">
+                   <div  id="cuarta_img_de_quinta_seccion" class="div_de_solo_figure_de_quinta_seccion">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_de_solo_texto_de_quinta_seccion">
+                       <div class="div_de_dos_textos_que_se_desplazan">
+                           <p class="parte_que_se_ve_de_cada_foto_de_quita_seccion">
+                               El Sevilla, el rival de cuartos de Copa
+                           </p>
+                           <p class="parte_que_no_se_ve_de_la_quinta_seccion">
+                               La eliminatoria se disputará, a partido único, en terreno andaluz el 5 o 6 de mayo
+                           </p>
+                       </div>
+                       <div class="div_de_solo_parte_de_abajo_de_hora_y_seccion">
+                           <p class="p_de_clasificacion_de_deportes">
+                               @ FEMENINO
+                           </p>
+                           <p class="p_de_hora_de_noticia_de_quinta_seccion">
+                               04 abr.21
+                           </p>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section id="sexta_seccion_dentro_de_la_segunda">
+       <div id="div_inmediato_a_sexta_seccion">
+           <div id="div_de_titulo_de_sexta_seccion">
+               <p>
+                   Edición Especial El Clásico
+               </p>
+           </div>
+           <div id="div_que_tiene_todas_las_cartillas_de_los_jugadores">
+               <div class="div_que_solo_tiene_una_cartilla">
+                   <div  id="priemera_foto_de_sexta_seccion" class="div_que_solo_tiene_la_foto_de_arriba_de_las_cartillas">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_que_solo_tiene_la_foto_e_info_de_la_cartilla">
+                       <div id="primera_img_de_segunda_galeria_de_sexta_seccion" class="div_que_tiene_la_foto_de_la_izquierda_de_la_cartilla">
+                           <figure>
+                               
+                           </figure>
+                       </div>
+                       <div class="div_que_solo_tiene_info_de_la_parte_de_la_derecha">
+                           <div class="titulo_que_habla_de_las_camisetas">
+                               <p>
+                                    CAMISETA EL CLÁSICO 20/21
+                               </p>
+                           </div>
+                           <div class="aclaracion_de_las_camisetas">
+                               <p>
+                                   Viste los colores para el partido...
+                               </p>
+                           </div>
+                           <div class="div_de_comprar_ahora">
+                               <p>
+                                   COMPRAR AHORA
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_que_solo_tiene_una_cartilla">
+                   <div  id="segunda_foto_de_sexta_seccion" class="div_que_solo_tiene_la_foto_de_arriba_de_las_cartillas">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_que_solo_tiene_la_foto_e_info_de_la_cartilla">
+                       <div id="segunda_img_de_segunda_galeria_de_sexta_seccion" class="div_que_tiene_la_foto_de_la_izquierda_de_la_cartilla">
+                           <figure>
+                               
+                           </figure>
+                       </div>
+                       <div class="div_que_solo_tiene_info_de_la_parte_de_la_derecha">
+                           <div class="titulo_que_habla_de_las_camisetas">
+                               <p>
+                                    CAMISETA EL CLÁSICO 20/21 JUNIOR
+                               </p>
+                           </div>
+                           <div class="aclaracion_de_las_camisetas">
+                               <p>
+                                   También disponible para...
+                               </p>
+                           </div>
+                           <div class="div_de_comprar_ahora">
+                               <p>
+                                   COMPRAR AHORA
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_que_solo_tiene_una_cartilla">
+                   <div id="tercera_foto_de_sexta_seccion" class="div_que_solo_tiene_la_foto_de_arriba_de_las_cartillas">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_que_solo_tiene_la_foto_e_info_de_la_cartilla">
+                       <div id="tercera_img_de_segunda_galeria_de_sexta_seccion"  class="div_que_tiene_la_foto_de_la_izquierda_de_la_cartilla">
+                           <figure>
+                               
+                           </figure>
+                       </div>
+                       <div class="div_que_solo_tiene_info_de_la_parte_de_la_derecha">
+                           <div class="titulo_que_habla_de_las_camisetas">
+                               <p>
+                                    CAMISETA EL CLÁSICO 20/21 MUJER
+                               </p>
+                           </div>
+                           <div class="aclaracion_de_las_camisetas">
+                               <p>
+                                   Siente los colores para el...
+                               </p>
+                           </div>
+                           <div class="div_de_comprar_ahora">
+                               <p>
+                                   COMPRAR AHORA
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               <div class="div_que_solo_tiene_una_cartilla">
+                   <div  id="cuarta_foto_de_sexta_seccion" class="div_que_solo_tiene_la_foto_de_arriba_de_las_cartillas">
+                       <figure>
+                           
+                       </figure>
+                   </div>
+                   <div class="div_que_solo_tiene_la_foto_e_info_de_la_cartilla">
+                       <div id="cuarta_img_de_segunda_galeria_de_sexta_seccion" class="div_que_tiene_la_foto_de_la_izquierda_de_la_cartilla">
+                           <figure>
+                               
+                           </figure>
+                       </div>
+                       <div class="div_que_solo_tiene_info_de_la_parte_de_la_derecha">
+                           <div class="titulo_que_habla_de_las_camisetas">
+                               <p>
+                                    CHAQUETA PRE- EL CLÁSICO 20/21
+                               </p>
+                           </div>
+                           <div class="aclaracion_de_las_camisetas">
+                               <p>
+                                   Equipate para el partido
+                               </p>
+                           </div>
+                           <div class="div_de_comprar_ahora">
+                               <p>
+                                   COMPRAR AHORA
+                               </p>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+    </div>
+    <section id="menu_fijo_parte_de_abajo">
+    <div id="div_inmediato_a_menu_fijo">
+        <div id="logo_y_letras_de_no_te_pierdas">
+            <figure>
+                
+            </figure>
+            <p>
+                No te pierdas
+            </p>
+        </div>
+        <div id="div_de_letras_amarillas_y_en_cursiva">
+            <p>
+                Culers
+            </p>
+            <p>
+                Barça TV+
+            </p>
+            <p>
+                Barça Store CN
+            </p>
+            <p>
+               Entradas 
+            </p>
+        </div>
+        <div id="div_de_iniciar_sesion_y_hazte_culer">
+            <p>
+                Iniciar sesión
+            </p>
+            <p>
+                Hazte Culer
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+</section>
+
+
+
+
+
+</body>
+</html>
